@@ -1,0 +1,42 @@
+div.issue-body-content {
+    border-top: 1px solid #eee;
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+div.module.toggle-wrap {
+    background: #fff;
+    border: none;
+    position: relative;
+    margin-top: 30px;
+    padding-top: 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.toggle-wrap .mod-header {
+    background: none;
+    padding: 8px 0 3px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.toggle-wrap .mod-header h2 {
+    text-transform: uppercase;
+    color: #205081;
+    font-size: 15px;
+}
+
+.toggle-wrap .toggle-title {
+    margin-left: 0;
+    background-color: transparent;
+    /* color: #fff; */
+}
+
+.toggle-wrap .mod-content {
+    padding: 0px 20px 15px;
+}
+
+#attachmentmodule .mod-content.issue-drop-zone {
+    margin-left: 0;
+}
+
