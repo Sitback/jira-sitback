@@ -4,7 +4,7 @@
   padding: 15px;
 }
 
-#jira h1#summary-val {
+#jira #summary-val {
   font-size: 20px;
 }
 
@@ -70,9 +70,17 @@
     font-size: 13px;
 }
 
-#jira .issue-container.skinny #activitymodule #issue-tabs {
+#jira .issue-list .issue-list .focused {
+  border-left: 5px solid #3572b0;
+}
+
+#jira .issue-container.skinny #activitymodule .tabwrap {
     margin-left: -15px;
     margin-right: -15px;
     width: 100%;
+}
+
+#jira .issue-container.skinny #activitymodule #issue-tabs {
+  padding: 0 10px;
 }
 
