@@ -31,9 +31,8 @@
 }
 
 #jira .toggle-wrap .toggle-title {
-    argin-left: 0;
-    ackground-color: transparent;
-    * color: #fff; */
+    margin-left: 0;
+    background-color: transparent;
 }
 
 #jira .toggle-wrap .mod-content {
