@@ -1,4 +1,75 @@
+.issue-body-content {
+  border-top: 1px solid #eee !important;
+  background: #f8f8f8 !important;
+  padding: 15px !important;
+}
 
+#summary-val {
+  font-size: 20px !important;
+}
+
+.module.toggle-wrap {
+  background: #fff !important;
+  border: none !important;
+  position: relative !important;
+  margin-top: 30px !important;
+  padding-top: 0 !important;
+  border-radius: 2px !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12) !important;
+}
+
+.toggle-wrap .mod-header {
+  background: none !important;
+  padding: 8px 0 3px !important;
+  border-bottom: 1px solid #e6e6e6 !important;
+}
+
+.toggle-wrap .mod-header h2 {
+  text-transform: uppercase !important;
+  color: #205081 !important;
+  font-size: 15px !important;
+}
+
+.toggle-wrap .toggle-title {
+  margin-left: 0 !important;
+  background-color: transparent !important;
+}
+
+.toggle-wrap .mod-content {
+  padding: 0px 20px 15px !important;
+}
+
+#attachmentmodule .mod-content.issue-drop-zone {
+  margin-left: 0 !important;
+}
+
+.activity-comment:nth-child(2n) {
+  background-color: #fafafa !important;
+}
+
+.activity-comment .action-details {
+  color: #666 !important;
+  font-size: 12px !important;
+}
+
+.activity-comment .user-avatar {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+
+.issue-list .issue-link-key {
+  font-weight: bold !important;
+}
+
+.issue-list .issue-link-summary {
+  font-size: 13px !important;
+}
+
+.issue-container.skinny #activitymodule .tabwrap {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  width: 100% !important;
+}
 
 #issue-tabs {
   padding: 0 10px !important;
@@ -25,11 +96,3 @@
   border-left: 5px solid #3572b0 !important;
   padding-left: 5px !important;
 }
-
-.issue-container.skinny #activitymodule .tabwrap {
-  margin-left: -15px !important;
-  margin-right: -15px !important;
-  width: 100% !important;
-}
-
-
