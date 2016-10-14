@@ -65,12 +65,6 @@
   font-size: 13px !important;
 }
 
-.issue-container.skinny #activitymodule .tabwrap {
-  margin-left: -15px !important;
-  margin-right: -15px !important;
-  width: 100% !important;
-}
-
 #issue-tabs {
   padding: 0 10px !important;
 }
@@ -96,3 +90,11 @@
   border-left: 5px solid #3572b0 !important;
   padding-left: 5px !important;
 }
+
+.issue-container.skinny #activitymodule .tabwrap {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  width: 100% !important;
+}
+
+
