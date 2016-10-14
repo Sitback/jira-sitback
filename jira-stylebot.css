@@ -1,98 +1,98 @@
-#jira div.issue-body-content {
-  border-top: 1px solid #eee;
-  background: #f8f8f8;
-  padding: 15px;
+.issue-body-content {
+  border-top: 1px solid #eee !important;
+  background: #f8f8f8 !important;
+  padding: 15px !important;
 }
 
-#jira #summary-val {
-  font-size: 20px;
+#summary-val {
+  font-size: 20px !important;
 }
 
-#jira div.module.toggle-wrap {
-  background: #fff;
-  border: none;
-  position: relative;
-  margin-top: 30px;
-  padding-top: 0;
-  border-radius: 2px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+.module.toggle-wrap {
+  background: #fff !important;
+  border: none !important;
+  position: relative !important;
+  margin-top: 30px !important;
+  padding-top: 0 !important;
+  border-radius: 2px !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12) !important;
 }
 
-#jira .toggle-wrap .mod-header {
-  background: none;
-  padding: 8px 0 3px;
-  border-bottom: 1px solid #e6e6e6;
+.toggle-wrap .mod-header {
+  background: none !important;
+  padding: 8px 0 3px !important;
+  border-bottom: 1px solid #e6e6e6 !important;
 }
 
-#jira .toggle-wrap .mod-header h2 {
-  text-transform: uppercase;
-  color: #205081;
-  font-size: 15px;
+.toggle-wrap .mod-header h2 {
+  text-transform: uppercase !important;
+  color: #205081 !important;
+  font-size: 15px !important;
 }
 
-#jira .toggle-wrap .toggle-title {
-  margin-left: 0;
-  background-color: transparent;
+.toggle-wrap .toggle-title {
+  margin-left: 0 !important;
+  background-color: transparent !important;
 }
 
-#jira .toggle-wrap .mod-content {
-  padding: 0px 20px 15px;
+.toggle-wrap .mod-content {
+  padding: 0px 20px 15px !important;
 }
 
-#jira #attachmentmodule .mod-content.issue-drop-zone {
-  margin-left: 0;
+#attachmentmodule .mod-content.issue-drop-zone {
+  margin-left: 0 !important;
 }
 
-#jira .activity-comment:nth-child(2n) {
-  background-color: #fafafa;
+.activity-comment:nth-child(2n) {
+  background-color: #fafafa !important;
 }
 
-#jira .activity-comment .action-details {
-  color: #666;
-  font-size: 12px;
+.activity-comment .action-details {
+  color: #666 !important;
+  font-size: 12px !important;
 }
 
-#jira .activity-comment .user-avatar {
-  font-weight: 600;
-  font-size: 14px;
+.activity-comment .user-avatar {
+  font-weight: 600 !important;
+  font-size: 14px !important;
 }
 
-#jira .issue-list .issue-link-key {
-  font-weight: bold;
+.issue-list .issue-link-key {
+  font-weight: bold !important;
 }
 
-#jira .issue-list .issue-link-summary {
-  font-size: 13px;
+.issue-list .issue-link-summary {
+  font-size: 13px !important;
 }
 
-#jira .issue-container.skinny #activitymodule .tabwrap {
-  margin-left: -15px;
-  margin-right: -15px;
-  width: 100%;
+.issue-container.skinny #activitymodule .tabwrap {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  width: 100% !important;
 }
 
-#jira #issue-tabs {
-  padding: 0 10px;
+#issue-tabs {
+  padding: 0 10px !important;
 }
 
-#jira .details-layout .split-view .list-results-panel {
-  padding-left: 0;
+.details-layout .split-view .list-results-panel {
+  padding-left: 0 !important;
 }
 
-#jira .details-layout .split-view .list-results-panel .list-panel {
-  padding: 0;
+.details-layout .split-view .list-results-panel .list-panel {
+  padding: 0 !important;
 }
 
-#jira .details-layout .split-view .list-results-panel .list-ordering {
-  text-transform: uppercase;
-  border-bottom: 2px solid #ccc;
+.details-layout .split-view .list-results-panel .list-ordering {
+  text-transform: uppercase !important;
+  border-bottom: 2px solid #ccc !important;
 }
 
-#jira .details-layout .split-view .list-results-panel .list-panel .issue-list>li {
-  padding-left: 10px;
+.details-layout .split-view .list-results-panel .list-panel .issue-list>li {
+  padding-left: 10px !important;
 }
 
 .issue-list > .focused {
-  border-left: 5px solid #3572b0;
-  padding-left: 5px;
+  border-left: 5px solid #3572b0 !important;
+  padding-left: 5px !important;
 }
