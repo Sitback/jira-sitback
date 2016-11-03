@@ -96,3 +96,44 @@
   border-left: 5px solid #3572b0 !important;
   padding-left: 5px !important;
 }
+
+// Tweaked from: http://staxmanade.com/2016/09/better-compact-jira-board-u-i-/
+.ghx-band-1 .ghx-issue .ghx-avatar {
+  right: auto;
+  top: -3px;
+  left: 100px;
+}
+.ghx-issue .ghx-flags {
+  left: 20px;
+  top: 5px;
+}
+.ghx-issue .ghx-type {
+  left: 5px;
+  top: 5px;
+}
+.ghx-issue-content {
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.ghx-issue .ghx-issue-content {
+  padding: 5px 5px 5px 24px;
+  min-height: 20px;
+}
+.ghx-issue-fields .ghx-key {
+  margin-left: 12px;
+}
+.ghx-avatar-img {
+  width: 15px;
+  height: 15px;
+}
+.ghx-band-3 .ghx-issue .ghx-avatar {
+  right: 5px;
+  text-align: right;
+  top: 0px;
+  left: 145px;
+}
+.ghx-issue.ghx-has-avatar .ghx-issue-fields,
+.ghx-issue.ghx-has-corner .ghx-issue-fields {
+  padding-right: 0px;
+}
