@@ -137,3 +137,53 @@
 .ghx-issue.ghx-has-corner .ghx-issue-fields {
   padding-right: 0px;
 }
+
+// Kanban board styling.
+#ghx-header .subnav-container {
+  display: none;
+}
+
+#ghx-column-headers .ghx-column {
+  padding: 2px 2px 2px 0;
+}
+
+.ghx-extra-fields {
+  display: none;
+}
+
+.ghx-issue .ghx-days {
+  display: none;
+}
+
+#js-work-quickfilters {
+  font-size: 0.85em;
+}
+
+#ghx-detail-view {
+  width: 40% !important;
+}
+
+.ghx-issue {
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.ghx-issue:first-of-type {
+  margin-top: 0px;
+}
+
+.ghx-issue .ghx-issue-content {
+  padding-left: 10px;
+}
+
+.ghx-issue .ghx-flags {
+  left: 5px;
+}
+
+.ghx-issue-content .ghx-type {
+  display: none;
+}
+
+#ghx-tab-com-atlassian-jira-plugins-jira-development-integration-plugin-greenhopper-devstatus-panel div:last-child {
+  height: 40px !important;
+}
