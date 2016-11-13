@@ -6,5 +6,9 @@ Install the Stylebot extension for Chrome. You can get it here: https://chrome.g
 
 Once installed, go to `jira.sitback.com.au` in a new tab and then click on the **CSS** icon in the Google Chrome menu bar and click **Open Stylebot**.
 
-Click the **Edit CSS** button at the bottom of the stylebot sidebar and paste `@import url("https://gitcdn.xyz/repo/Sitback/jira-sitback/7b2b6c2bd41d626d426ff703808521299107ecea/jira-stylebot.css");`
- and click **Save**.
+Click the **Edit CSS** button at the bottom of the stylebot sidebar and paste:
+```css
+@import url("https://sitback.github.io/jira-sitback/jira-stylebot.css");
+```
+
+and click **Save**.
