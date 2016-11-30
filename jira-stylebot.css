@@ -187,3 +187,79 @@
 #ghx-tab-com-atlassian-jira-plugins-jira-development-integration-plugin-greenhopper-devstatus-panel div:last-child {
   height: 40px !important;
 }
+
+/* Reduce size of board items. */
+#ghx-detail-view #ghx-tab-details {
+  font-size: 0.9em;
+}
+
+#ghx-detail-view #ghx-tab-details h4 {
+  margin-top: 10px;
+}
+
+#ghx-detail-view .ghx-detail-section:first-child .ghx-header {
+  margin-top: 10px;
+}
+
+#ghx-tab-attachments .ghx-container {
+  overflow: visible;
+  font-size: 0.9em;
+}
+
+.dashboard-item-content .aui-badge {
+  background-color: rgb(195, 47, 42);
+  color: #fff;
+  font-weight: normal;
+}
+
+#ghx-pool-column {
+  width: 100%;
+}
+
+/* Board: issue detail lightbox-like */
+#ghx-detail-view {
+	width: 100% !important;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#ghx-detail-view #ghx-detail-contents {
+  width: 75% !important;
+	margin: 0 auto;
+}
+
+#ghx-detail-contents #ghx-tab-details,
+#ghx-detail-contents #ghx-tab-subtasks,
+#ghx-detail-contents #ghx-tab-com-atlassian-jira-plugins-jira-development-integration-plugin-greenhopper-devstatus-panel{
+  float: left;
+  width: 30%;
+  clear: left;
+  box-sizing: border-box;
+}
+
+#ghx-detail-contents #ghx-tab-details {
+  padding-top: 0;
+}
+
+#ghx-detail-contents #ghx-tab-description,
+#ghx-detail-contents #ghx-tab-comments,
+#ghx-detail-contents #ghx-tab-attachments {
+  float: right;
+  width: calc(70% - 20px);
+  clear: none;
+  margin-left: 20px;
+}
+
+/* Reverse order of comments */
+#ghx-tab-comments .ghx-container {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+#ghx-tab-comments .ghx-container > .ghx-fa,
+#ghx-tab-comments .ghx-container .ghx-comment {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
