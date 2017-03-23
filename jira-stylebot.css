@@ -97,7 +97,7 @@
   padding-left: 5px !important;
 }
 
-// Tweaked from: http://staxmanade.com/2016/09/better-compact-jira-board-u-i-/
+/* Tweaked from: http://staxmanade.com/2016/09/better-compact-jira-board-u-i-/ */
 .ghx-band-1 .ghx-issue .ghx-avatar {
   right: auto;
   top: -3px;
@@ -173,11 +173,14 @@
 }
 
 .ghx-issue .ghx-issue-content {
+  margin-bottom: 3px;
+  min-height: auto;
   padding-left: 10px;
 }
 
 .ghx-issue .ghx-flags {
   left: 5px;
+  top: 5px;
 }
 
 .ghx-issue-content .ghx-type {
@@ -216,6 +219,11 @@
   width: 100%;
 }
 
+#ghx-detail-view .module.toggle-wrap {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
 /* Board: issue detail lightbox-like */
 #ghx-detail-view {
 	width: 100% !important;
@@ -230,26 +238,31 @@
 	margin: 0 auto;
 }
 
-#ghx-detail-contents #ghx-tab-details,
-#ghx-detail-contents #ghx-tab-subtasks,
-#ghx-detail-contents #ghx-tab-com-atlassian-jira-plugins-jira-development-integration-plugin-greenhopper-devstatus-panel{
+#ghx-detail-contents #DESCRIPTION,
+#ghx-detail-contents #COMMENT {
+  clear: none;
+  float: right;
+  margin-left: 20px;
+  width: calc(70% - 20px);
+}
+
+#ghx-detail-contents #DETAILS,
+#ghx-detail-contents #ATTACHMENT,
+#ghx-detail-contents #SUB_TASKS,
+#ghx-detail-contents #THIRD_PARTY_TAB {
+  box-sizing: border-box;
+  clear: left;
   float: left;
   width: 30%;
-  clear: left;
-  box-sizing: border-box;
 }
 
 #ghx-detail-contents #ghx-tab-details {
   padding-top: 0;
 }
 
-#ghx-detail-contents #ghx-tab-description,
-#ghx-detail-contents #ghx-tab-comments,
-#ghx-detail-contents #ghx-tab-attachments {
-  float: right;
-  width: calc(70% - 20px);
-  clear: none;
-  margin-left: 20px;
+#attachmentmodule_heading .ops,
+#linkingmodule_heading .ops {
+  padding-right: 10px;
 }
 
 /* Reverse order of comments */
