@@ -33,4 +33,28 @@
             closeDetailView($boardDetailView);
         }
     });
+
+    // Add numbering to comments
+    function addCommentNumbers() {
+        AJS.$(".commentcount").remove();
+
+        var count = (jQuery('.show-more-comments').length === 0) ? 1 : (jQuery('.show-more-comments').data('collapsed-count') + 1);
+
+        AJS.$('div[id|=comment][id!=comment-wiki-edit]').each(function () {
+            AJS.$(this).prepend('<h3 class="commentcount">' + count + '</h3>');
+            count = count + 1;
+        });
+    }
+
+    AJS.$('document').ready(function () {
+        // expand collapsed comments on page load if exists
+        addCommentNumbers();
+
+        JIRA.bind(JIRA.Events.REFRESH_ISSUE_PAGE, function (e, context, reason) {
+            addCommentNumbers();
+        });
+        JIRA.bind(JIRA.Events.NEW_CONTENT_ADDED, function (e, context, reason) {
+            addCommentNumbers();
+        });
+    });
 })(window.jQuery);
