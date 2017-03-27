@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sitback JIRA enhancements
 // @namespace    http://sitback.com.au
-// @version      0.1.0
+// @version      0.2.0
 // @description  Tweaks for Sitback's JIRA installation.
 // @author       Chin Godawita <chin@sitback.com.au
 // @match        https://jira.sitback.com.au/*
