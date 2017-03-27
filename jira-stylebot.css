@@ -276,3 +276,14 @@
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
+
+/* Styling for comment counts */
+.commentcount {
+    float: left;
+    width: 2%;
+}
+
+.commentcount + .twixi-wrap.verbose {
+    float: left;
+    width: 95%;
+}
